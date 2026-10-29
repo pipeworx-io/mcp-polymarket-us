@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/polymarket-us",
   "title": "Polymarket Us",
-  "description": "Polymarket US MCP — market data for Polymarket US (polymarket.us), the",
-  "version": "0.1.0",
+  "description": "Polymarket US MCP — market data for Polymarket US (polymarket.us), the CFTC-regulated, US-licensed…",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/polymarket-us",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-polymarket-us",

@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-polymarket-us",
-  "version": "0.1.0",
-  "description": "Polymarket US MCP — market data for Polymarket US (polymarket.us), the",
+  "version": "0.2.0",
+  "description": "Polymarket US MCP — market data for Polymarket US (polymarket.us), the CFTC-regulated, US-licensed prediction-market exchange operated as a SEPARATE venue from the offshore Polymarket platform.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-polymarket-us": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "polymarket-us"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-polymarket-us.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/polymarket-us",
   "pipeworx": {
-    "sourceHash": "v1-24bfa95b535f046cd1b9af1986fc9f5d44f93d8b17ad59a24593233b00ae7c63",
-    "sourceCommit": "be47827ad0f444e813e7224db0489c4ea890a30e"
+    "mode": "gateway",
+    "slug": "polymarket-us",
+    "gatewaySlug": "polymarket-us",
+    "sourceHash": "v1-3da031b60794a21144b81caf709d2bfdbdb59e8f8ea80fc9d3f2003322313c0b",
+    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
   }
 }
