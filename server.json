@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/polymarket-us",
   "title": "Polymarket Us",
   "description": "Polymarket US MCP — market data for Polymarket US (polymarket.us), the CFTC-regulated, US-licensed…",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "websiteUrl": "https://pipeworx.io/packs/polymarket-us",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-polymarket-us",

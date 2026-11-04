@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-polymarket-us",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Polymarket US MCP — market data for Polymarket US (polymarket.us), the CFTC-regulated, US-licensed prediction-market exchange operated as a SEPARATE venue from the offshore Polymarket platform.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "polymarket-us",
     "gatewaySlug": "polymarket-us",
-    "sourceHash": "v1-3da031b60794a21144b81caf709d2bfdbdb59e8f8ea80fc9d3f2003322313c0b",
-    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
+    "sourceHash": "v1-471a7c37dce823119514a0f326b13491ad1b148a31b211a9c8e945f0086e9618",
+    "sourceCommit": "db27387ed3ef7ec4805d465f7964a7f65f937006"
   }
 }
